@@ -7,59 +7,60 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f8f9fa;
-            color: #333;
+            background-color: #2c2f33;
+            color: #fff;
             margin: 0;
-            padding: 10px;
+            padding: 20px;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
-            background: #ffffff;
+            background: #23272a;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         }
         h1 {
             text-align: center;
-            color: #ff8ba7;
-            font-size: 24px;
+            color: #7289da;
         }
         .command-list {
             list-style: none;
             padding: 0;
         }
         .command-list li {
-            background: #e3f2fd;
+            background: #2c2f33;
             margin: 10px 0;
             padding: 10px;
-            border-left: 5px solid #ff8ba7;
+            border-left: 5px solid #7289da;
             border-radius: 5px;
         }
         .command-list li h2 {
             margin: 0;
-            font-size: 16px;
+            font-size: 18px;
         }
         .command-list li p {
             margin: 5px 0 0;
-            color: #666;
-            font-size: 14px;
+            color: #99aab5;
         }
-        .logo, .mascot {
+        .logo {
             display: block;
             margin: 20px auto;
-            max-width: 150px;
-            border-radius: 50%;
+            max-width: 200px;
+            border-radius: 100%;
         }
         .mascot {
-            max-width: 200px;
+            display: block;
+            margin: 20px auto;
+            max-width: 300px;
+            border-radius: 20%;
         }
         #search {
             width: 100%;
             padding: 10px;
             margin: 20px 0;
             border-radius: 5px;
-            border: 1px solid #ccc;
+            border: none;
             outline: none;
         }
         .screenshots {
@@ -70,16 +71,16 @@
             max-width: 100%;
             margin: 10px 0;
             border-radius: 10px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="path_to_your_logo.png" alt="Bot Logo" class="logo">
+        <img src="https://i.imgur.com/oFFA9Ky.png" alt="Bot Logo" class="logo">
         <h1>Memocord</h1>
-        <p>Welcome to Memocord. Memocord allows users to create posts and share them via ID with each other. Below you'll find a list of commands and their descriptions.</p>
-        <img src="path_to_memochan_image.png" alt="Memo-chan" class="mascot">
+        <p>Welcome to the description page of Memocord. Memocord allows users to create posts and share them via ID with each other. You can also view all posts using specific commands. Below you'll find a list of commands and their descriptions.</p>
+        <img src="https://i.imgur.com/nRn53rU.jpg" alt="Memo-chan" class="mascot">
         <input type="text" id="search" placeholder="Search commands...">
         <ul class="command-list" id="commandList">
             <li>
@@ -92,7 +93,7 @@
             </li>
             <li>
                 <h2>/ownerinfo</h2>
-                <p>Gives information about the bot's owner.</p>
+                <p>See how many servers the bot is currently in.</p>
             </li>
             <li>
                 <h2>/ping</h2>
@@ -122,11 +123,17 @@
                 <h2>/post rules</h2>
                 <p>Displays the rules for posting.</p>
             </li>
+            <li>
+                <h2>/post color</h2>
+                <p>Shows you a site to grab a color hex code.</p>
+            </li>
         </ul>
         <div class="screenshots">
             <h2>Screenshots</h2>
-            <img src="path_to_screenshot1.png" alt="Screenshot 1">
-            <img src="path_to_screenshot2.png" alt="Screenshot 2">
+            <img src="https://i.imgur.com/060kvxf.png" alt="Screenshot 1">
+            <img src="https://i.imgur.com/ykMhZjC.png" alt="Screenshot 2">
+            <img src="https://i.imgur.com/VDKXs7q.png" alt="Screenshot 3">
+            <!-- Add more screenshots as needed -->
         </div>
     </div>
     <script>
